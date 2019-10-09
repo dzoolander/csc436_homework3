@@ -25,6 +25,7 @@ export class ArticleComponent implements OnInit {
 	}
 	
 	flag(): boolean {
+	this.article.flag();
 	return false;
 	}
 

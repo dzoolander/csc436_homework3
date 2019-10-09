@@ -19,6 +19,10 @@ export class Article {
 	this.votes -= 1;
 	}
 	
+	flag(): void {
+	this.votes = 0;
+	}
+	
 	domain(): string {
 		try {
 			const domainAndPath: string = this.link.split('//')[1];
