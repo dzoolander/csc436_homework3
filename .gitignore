@@ -41,6 +41,15 @@ yarn-error.log
 testem.log
 /typings
 
+#tools
+*.cmd
+hs
+http-server
+ng
+tsc
+tsserver
+tsun
+
 # System Files
 .DS_Store
 Thumbs.db
