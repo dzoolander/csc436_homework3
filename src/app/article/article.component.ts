@@ -23,6 +23,10 @@ export class ArticleComponent implements OnInit {
 	this.article.voteDown();
 	return false;
 	}
+	
+	flag(): boolean {
+	return false;
+	}
 
   ngOnInit() {
   }
